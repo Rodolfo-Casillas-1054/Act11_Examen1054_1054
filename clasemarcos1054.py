@@ -14,24 +14,24 @@ class Alumno1054:
 
     # Zona de funciones dentro de la clase
     def mi_Lista(self):
-        lista_alumnos = ["Rodolfo", "Diana", "Najera", "Azul", "Andy"]
-        for x in lista_alumnos:
+        coloresmarcos = ["Negros", "Blancos", "Azules", "Dorados", "Rojos"]
+        for x in coloresmarcos:
             print(x)
 
     def mi_Tupla(self):
-        Tupla_Edadperros = ("Nava", "Meza", "Tontolin", "Aldahir", "Bena")
-        for y in Tupla_Edadperros:
+        materialesmarcos = ("Madera", "Metalicos", "Plastico", "Aluminio", "oro")
+        for y in materialesmarcos:
             print(y)
 
     def mi_Diccionario(self):
-        diccionariocolor = {
-            "Sociales: ": 9,
-            "Fisica: ": 9,
-            "Programacion: ": 9,
-            "Calculo: ": 9,
-            "Ingles: ": 9
+        diccionarioctamaños = {
+            "20 x 20 cm: ": 1000,
+            "20 x 40 cm: ": 1100,
+            "40 x 40 cm: ": 1200,
+            "60 x 20 cm: ": 1300,
+            "80 x 350 cm: ": 1400
         }
-        for x, y in diccionariocolor.items():
+        for x, y in diccionarioctamaños.items():
             print(x, y)
 
     def mostrardatos(self):
